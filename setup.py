@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="animelooppy",
-    version="1.0.1",
+    version="1.0.2",
     description="A simple API wrapper for animeloop.org",
     author="Andreas Bielawski (@Brawl345)",
     url="http://github.com/Brawl345/animelooppy",
