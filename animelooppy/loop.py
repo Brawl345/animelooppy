@@ -24,6 +24,7 @@ class Loop:
             self.period = []
             self.period.append(datetime.strptime(json["period"]["begin"], "%H:%M:%S.%f"))
             self.period.append(datetime.strptime(json["period"]["end"], "%H:%M:%S.%f"))
+            self.duration = (self.period[1] - self.period[0]).total_seconds()
 
         if "frame" in json:
             self.frame = []

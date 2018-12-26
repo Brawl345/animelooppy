@@ -57,6 +57,7 @@ Look into `__init__.py` for more functions.
 
 ## Notes
 * Dates and times are converted to datetime objects for easier access
+* Duration in seconds is available for loops
 * Episodes are NOT ordered by number
 * Empty genre strings are ignored
 * Tags are kinda confusing, better to ignore this feature
